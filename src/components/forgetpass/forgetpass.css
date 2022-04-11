@@ -1,0 +1,62 @@
+.forget {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forget .oups{
+    text-align: center;
+    width: 70%;
+}
+.forget .oups h3{
+    line-height: 1.4;
+}
+
+.receive{
+    margin-left: -16%;
+    margin-top: -17%;
+    font-size: 12px;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+        
+    
+    
+}
+.p{
+    text-align: center;
+    width: 58%;
+    padding: 0rem 1rem;
+}
+.input input{
+    width: 15rem;
+    height: 2.25rem;
+    background-color: var(--color-input-bg);
+    border: none;
+    padding: 3px 12px;
+    margin-bottom: 1.5rem;
+    margin-left: -2%;
+    border-radius: 14px;
+}
+.confirm{
+    margin: 10% 0%;
+}
+
+.submit{
+    background-color: var(--color-btn-bg);
+    margin: 1rem 3rem 1em 1rem;
+    text-align: center;
+    border: none;
+    width: 83%;
+    height: 31px;
+    border-radius: 11px;
+    cursor: pointer;
+    font-weight: bold;
+
+
+}
+.submit:hover {
+        transform: scale(1.06);
+      
+}
